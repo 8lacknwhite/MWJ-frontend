@@ -9,7 +9,7 @@ function Navigator() {
         <Navbar bg="primary" data-bs-theme="dark">
             <Container>
                 <Nav>
-                    <Navbar.Brand href="#home">
+                    <Navbar.Brand href="home">
                         <img
                             alt=""
                             src="./logo.svg"
@@ -22,11 +22,11 @@ function Navigator() {
             </Container>
             <Container>
                 <Nav className="me-auto">
-                    <Nav.Link href="#home">Services</Nav.Link>
-                    <Nav.Link href="#features">Resources</Nav.Link>
-                    <Nav.Link href="#pricing">About Us</Nav.Link>
-                    <Nav.Link href="#def">Contact Us</Nav.Link>
-                    <Nav.Link bsPrefix='link-color' href="kjw" >Donate</Nav.Link> 
+                    <Nav.Link href="services">Services</Nav.Link>
+                    <Nav.Link href="resources">Resources</Nav.Link>
+                    <Nav.Link href="aboutus">About Us</Nav.Link>
+                    <Nav.Link href="contact">Contact Us</Nav.Link>
+                    <Nav.Link bsPrefix='link-color' href="donate" >Donate</Nav.Link> 
                 </Nav>
             </Container>
         </Navbar>
