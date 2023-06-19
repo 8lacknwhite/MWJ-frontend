@@ -1,20 +1,20 @@
 import React from 'react';
 import {Routes, Route } from 'react-router-dom';
+import './bootstrap.min.css'
 
 import Home from './views/Home';
 import About from './views/About';
 import Contact from './views/Contact';
 import Footer from './components/Footer';
-import Navbar from './components/Navbar';
+
 import Resources from './views/Resources';
 import Services from './views/Services';
 import Donate from './views/Donate';
-
-//TODO: Make imports clean
-const App = () => {
+import Navigator from './components/Navbar';
+function App() {
   return (
     <>
-    <Navbar />
+    <Navigator/> 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
