@@ -6,11 +6,10 @@ import Home from './views/Home';
 import About from './views/About';
 import Contact from './views/Contact';
 import Footer from './components/Footer';
-
 import Resources from './views/Resources';
 import Services from './views/Services';
 import Donate from './views/Donate';
-import Navigator from './components/Navbar';
+import Navigator from './components/navbar';
 function App() {
   return (
     <>
