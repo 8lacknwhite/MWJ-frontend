@@ -26,7 +26,7 @@ function Navigator() {
                     <Nav.Link href="resources">Resources</Nav.Link>
                     <Nav.Link href="aboutus">About Us</Nav.Link>
                     <Nav.Link href="contact">Contact Us</Nav.Link>
-                    <Nav.Link bsPrefix='link-color mx-2' href="donate" >Donate</Nav.Link> 
+                    <Nav.Link bsPrefix='link-color' href="donate" >Donate</Nav.Link> 
                 </Nav>
             </Container>
         </Navbar>

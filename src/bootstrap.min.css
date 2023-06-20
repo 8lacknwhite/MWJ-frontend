@@ -12,6 +12,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 @import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Noto+Serif:wght@100;200;300;400;500;600;700;800;900&display=swap);
 
 :root,
 [data-bs-theme=light] {
@@ -46,7 +48,7 @@
     --bs-danger: #f04124;
     --bs-light: #eee;
     --bs-dark: #222;
-    --bs-primary-rgb: 47, 95, 98;
+    --bs-primary-rgb: 11, 38, 42;
     --bs-secondary-rgb: 178, 252, 5;
     --bs-success-rgb: 67, 172, 106;
     --bs-info-rgb: 91, 192, 222;
@@ -80,7 +82,7 @@
     --bs-dark-border-subtle: #adb5bd;
     --bs-white-rgb: 255, 255, 255;
     --bs-black-rgb: 0, 0, 0;
-    --bs-font-sans-serif: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --bs-font-sans-serif: "Noto Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
     --bs-body-font-family: var(--bs-font-sans-serif);
@@ -4342,7 +4344,7 @@ fieldset:disabled .btn {
 .nav {
     --bs-nav-link-padding-x: 1rem;
     --bs-nav-link-padding-y: 0.5rem;
-    --bs-nav-link-font-weight: ;
+    --bs-nav-link-font-weight:  ;
     --bs-nav-link-color: var(--bs-link-color);
     --bs-nav-link-hover-color: var(--bs-link-hover-color);
     --bs-nav-link-disabled-color: #ccc;
@@ -4359,8 +4361,8 @@ fieldset:disabled .btn {
     padding-bottom: 1.5rem;
     margin-right: 2rem;
     font-size: var(--bs-nav-link-font-size);
-    font-weight: var(--bs-nav-link-font-weight);
-    color: var(--bs-nav-link-color);
+    font-weight: 700;
+    color: #fff;
     text-decoration: none;
     background: 0 0;
     border: 0;
