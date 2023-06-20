@@ -1,8 +1,12 @@
 .link-color{
     display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    text-decoration: none;
+    background: 0 0;
+    border: 0;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
     background-color:#b2fc05;
-    color:#fff;
-    padding-top: 0.5rem ;
-    padding-bottom: 0.5rem;
-    margin: 0;
+    color: #fff;
 }
