@@ -10,6 +10,7 @@ import Resources from './views/Resources';
 import Services from './views/Services';
 import Donate from './views/Donate';
 import Navigator from './components/navbar';
+import Stories from './views/Stories';
 function App() {
   return (
     <>
@@ -21,6 +22,7 @@ function App() {
         <Route path="/aboutus" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/donate" element={<Donate />} />
+        <Route path="/stories" element={<Stories />}/>
       </Routes> 
       <Footer />
     </>
